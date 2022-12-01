@@ -20,8 +20,8 @@ terminal-border: "0"
   item_color = "#67d97a"
   selected_item_color = "#ffffff"
   item_height = 48
-  item_spacing = 8
-  item_icon_space = 12
+  item_spacing = 10
+  item_icon_space = 1
   item_pixmap_style = "item_*.png"
   selected_item_pixmap_style = "selected_item_*.png"
 }
@@ -33,30 +33,8 @@ terminal-border: "0"
   width = 100%
   align = "center"
   id = "__timeout__"
-  # DE
-  # text = "Start in %d Sekunden."
-  # EN
-  text = "Booting in %d seconds"
-  # ES
-  # text = "Arranque en %d segundos"
-  # FR
-  # text = "Démarrage automatique dans %d secondes"
-  # IT
-  # text = "Avvio in %d secondi"
-  # NO
-  # text = "Starter om %d sekunder"
-  # PT
-  # text = "Arranque automático dentro de %d segundos"
-  # RU
-  # text = "Загрузка выбранного пункта через %d сек."
-  # RUE
-  # text = "Автоматичноє терьханя начне ся через %d секунд"
   # TR
-  # text = "%d saniye sonra önyükleme başlayacak."
-  # UA
-  # text = "Автоматичне завантаження розпочнеться через %d сек."
-  # zh_CN
-  # text = "在 %d 内启动"
+  text = "%d saniye sonra önyükleme başlayacak."
   color = "#67d97a"
   font = "Fixedsys Regular 32"
 }
@@ -64,33 +42,31 @@ terminal-border: "0"
 # Navigation keys hint 
 + label {
   left = 0
-  top = 98%-30
+  top = 98%-110
   width = 100%
-  align = "center"
-  # DE
-  # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
-  # EN
-  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
-  # ES
-  # text = "Use las teclas ↑ y ↓ para cambiar la selección, Enter para confirmar"
-  # FR
-  # text = "Choisissez le système avec les flèches du clavier (↑ et ↓), puis validez avec la touche Enter (↲)"
-  # IT
-  # text = "Usa i tasti ↑ e ↓ per cambiare la selezione, premi Invio ↲ per confermare"
-  # NO
-  # text = "Bruk ↑ og ↓ for å endre menyvalg, velg med Enter"
-  # PT
-  # text = "Use as teclas ↑ e ↓ para mudar a seleção, e ENTER para confirmar"
-  # RU
-  # text = "Используйте клавиши ↑ и ↓ для изменения выбора, Enter для подтверждения"
-  # RUE
-  # text = "Хоснуйте ↑ тай ↓ на убераня, Enter на пудтверженя"
+  align = "left"
   # TR
-  # text = "Seçiminizi değiştirmek için ↑ ve ↓ tuşlarını, onaylamak için ise Enter tuşunu kullanabilirsiniz"
-  # UA
-  # text = "Використовуйте ↑ та ↓ для вибору, Enter для підтвердження"
-  # zh_CN
-  # text = "使用 ↑ 和 ↓ 键移动选择条，Enter 键确认"
+  text = "  Seçiminizi değiştirmek için ↑ ve ↓"
+  color = "#67d97a"
+  font = "Fixedsys Regular 32"
+}
++ label {
+  left = 0
+  top = 98%-80
+  width = 100%
+  align = "left"
+  # TR
+  text = "  tuşlarını, onaylamak için ise"
+  color = "#67d97a"
+  font = "Fixedsys Regular 32"
+}
++ label {
+  left = 0
+  top = 98%-50
+  width = 100%
+  align = "left"
+  # TR
+  text = "  Enter tuşunu kullanabilirsiniz"
   color = "#67d97a"
   font = "Fixedsys Regular 32"
 }
