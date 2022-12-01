@@ -6,4 +6,6 @@ Supported languages: Chinese (simplified), English, French, German, Italian, Nor
 
 ---
 
-
+this is edited version of another theme
+edit some text and icons
+https://github.com/Teknoist/fallout-ventoy-theme
