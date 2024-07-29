@@ -9,4 +9,4 @@ Supported languages: Chinese (simplified), English, French, German, Italian, Nor
 this is edited version of another theme.
 
 I edit some text and icons
-https://github.com/Teknoist/fallout-ventoy-theme
+[https://github.com/Teknoist/fallout-ventoy-theme](https://github.com/shvchk/fallout-grub-theme)
